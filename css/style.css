@@ -125,6 +125,12 @@ main{
   padding: 5px 8px;
 }
 
+.row-down .cards:last-child .card .sos.special {
+  left: 0;
+}
+
+
+
 .container .card .heart{
   position: absolute;
   right: 0;
