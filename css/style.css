@@ -96,6 +96,7 @@ header .container .topbar .menu-right ul li a {
 main{
   flex-flow: column wrap;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .row-top{
@@ -154,6 +155,84 @@ main{
   text-decoration: line-through;
   color: black;
 }
+
+
+
+     /* FOOTER  */
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: #1A1A1A;
+}
+
+footer .container .downbar{
+  width: 100%;
+  height: 100px;
+}
+
+footer .container .downbar .box-left{
+  width: 500px;
+  height: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+.box-left{
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.box-left .boolando{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.info ul li{
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.info ul li a{
+  font-size: 13px;
+}
+
+footer .container .downbar .box-right{
+  width: 500px;
+  height: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.downbar{
+  justify-content: space-between;
+}
+
+.box-right{
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: end;
+}
+.box-right .trovaci{
+  margin-right: 10px;
+  color: white;
+}
+
+.box-right .social ul li a{
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+
+
+
 
 
 
