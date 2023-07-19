@@ -37,8 +37,8 @@ a{
 }
 
 img{
-  width: 445px;
-  height: 643px;
+  width: 390px;
+  height: 565px;
   object-fit: cover;
 }
 
@@ -93,6 +93,21 @@ header .container .topbar .menu-right ul li a {
 
 /* MAIN  */
 
+main{
+  flex-flow: column wrap;
+  padding-top: 50px;
+}
+
+.row-top{
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row-down{
+  flex-direction: row;
+  margin-top: 30px;
+  justify-content: space-between;
+}
 .container .card .discount{
   position: absolute;
   left: 0;
@@ -118,9 +133,20 @@ header .container .topbar .menu-right ul li a {
   background-color: white;
 }
 
-.container .card .subtitle p:first-child{
-  color: grey;
+.cards .subtitle p:first-child{
+  color: rgb(41, 40, 40);
   font-size: 14px;
+}
+
+.cards .subtitle p:nth-child(2){
+  font-weight: bold;
+}
+.cards .subtitle p:last-child{
+  color: #FF0100;
+}
+.cards .subtitle p:last-child span{
+  text-decoration: line-through;
+  color: black;
 }
 
 
