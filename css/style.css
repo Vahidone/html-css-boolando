@@ -49,6 +49,22 @@ img{
 
 
 
+ /* all HOVER  */
+
+ .card .replace{
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+ }
+ .card .replace:hover{
+  opacity: 1;
+ }
+
+ .container .card .heart:hover{
+  color: #FF0100;
+ }
+
 
 
 
@@ -92,6 +108,7 @@ header .container .topbar .logo img{
 header .container .topbar .menu-right ul li a {
   margin-left: 10px;
 }
+
 
 
 /* MAIN  */
@@ -163,26 +180,10 @@ main{
 
 
 
- /* all HOVER  */
-
- .card .replace{
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
- }
- .card .replace:hover{
-  opacity: 1;
- }
-
- .heart:hover{
-  color: #FF0100;
- }
 
 
 
-
-     /* FOOTER  */
+  /* FOOTER  */
 
 footer{
   width: 100%;
